@@ -1,2 +1,2 @@
 # CatCode
-Cat and fish!!!
+It's for c++!!!
