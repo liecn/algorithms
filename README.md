@@ -1,9 +1,9 @@
-# CatCode &hearts;
+# CatCode
 (Notes: "&hearts;" means 2 years)
 
 ## 任务部署
 
-### LeetCode Algorithm
+### LeetCode Algorithm &hearts;
 
 | # | Title | Solution | Difficulty | Doc |
 |---| ----- | -------- | ---------- | --- |
