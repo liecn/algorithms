@@ -1,4 +1,4 @@
-# CatCode &hearts
+# CatCode &hearts;
 (Notes: "&hearts;" means 2 years)
 
 ## 任务部署
