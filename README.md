@@ -1,18 +1,15 @@
-# CatCode
+# CatCode &hearts
+(Notes: "&hearts;" means 2 years)
 
 ## 任务部署
-LeetCode
-========
 
 ### LeetCode Algorithm
 
-(Notes: "&hearts;" means 2 years)
+| # | Title | Solution | Difficulty | Doc |
+|---| ----- | -------- | ---------- | --- |
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [C++](./cpp/22.GenerateParentheses.cpp)|Medium|Doc
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [C++](./cpp/17.LetterCombinationsofaPhoneNumber.cpp)|Medium|Doc
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./cpp/4.MedianofTwoSortedArrays.cpp)|Hard|Doc
 
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [C++](./cpp/22.GenerateParentheses.cpp)|Medium|
-|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [C++](./cpp/17.LetterCombinationsofaPhoneNumber.cpp)|Medium|
-|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./cpp/4.MedianofTwoSortedArrays.cpp)|Hard|
 ## 参考资料
 Markdown：[关于Markdown的wiki](https://en.wikipedia.org/wiki/Markdown)
-
