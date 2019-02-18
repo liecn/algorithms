@@ -1,5 +1,4 @@
 # CatCode
-Cat and fish!!!
 
 ## 任务部署
 Leetcode等各类任务参见[teambition](https://www.teambition.com)！
