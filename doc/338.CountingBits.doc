@@ -1,0 +1,12 @@
+# 338.[Counting Bits](https://leetcode.com/problems/counting-bits/)
+[Java](../java/338.CountingBits.java) | Middle
+
+## 动规
+这道题有意思的是，改变了我认知中关于递推只能在相邻两项中发生。从乘除角度看，二进制位运算时关于digits的递推也该是一种递推关系的承载。
+```
+if((i&1)==1)
+	res[i]=res[i>>1]+1;
+else
+	res[i]=res[i>>1];
+```
+从位运算角度看，这道题就可以基于奇偶数进行递推关系建立。时间与空间复杂度均为O(n)

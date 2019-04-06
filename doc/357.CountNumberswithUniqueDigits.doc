@@ -1,0 +1,15 @@
+# 357.[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)
+[Java](../java/357.CountNumberswithUniqueDigits.java) | Middle
+
+## 动规
+精髓在于在f(n)的基础上在其后添加digit,由此递推
+```
+f(1) = 10. (0, 1, 2, 3, ...., 9)
+f(2) = 9*8
+f(3) = 9*8*7
+...
+f(10) = 9*8*7*...*1
+f(11)=f(12)=0
+```
+因此print F(n)=f(1)+...+f(n)
+> coding时陷入怪圈，考虑在其高位添加digit，由此还要考虑其是否含0进行分类，过去复杂不可取。
