@@ -1,0 +1,12 @@
+# 152.[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+[Java](../java/152.MaximumProductSubarray.java) | Middle
+
+## 动规
+- 本题相比于最大和子数组，区别在于对结果项的捕捉！考虑到符号问题，新的最大值可能来自前结果项(即当前序列项之前的项对应的最大积子数组)与当前序列项的乘积，或者相反，来自当前序列项之前的项对应的最小积子数组与当前序列积的乘积。即，我们需要记录当前项之前的所有项对应的max，min。这是难点一。
+- 再者，如果对max，min进行参数更新，还要考虑他们与上步的时序。这是难点二。
+```
+min=Math.min(Math.min(min*f(n),max*f(n)),f(n));
+max=Math.max(Math.max(min*f(n),max*f(n)),f(n));
+Result=Manth.max(Result,max);
+```
+

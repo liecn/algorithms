@@ -1,0 +1,12 @@
+# 53.[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+[Java](../java/152.MaximumProductSubarray.java) | Easy
+
+## 动规
+- 考虑子数组的连续性，当新增一项时，要么让该新项加入当前结果序列，否则舍弃当前序列，自新项始建立新秩序！
+
+- 结果取参数更新中对应秩序的最大值可。
+```
+max=Math.max(max+f(n),f(n));
+Result=Manth.max(Result,max);
+```
+
