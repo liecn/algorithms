@@ -7,7 +7,7 @@
 
 | # | Title | Solution | Difficulty | Doc |
 |---| ----- | -------- | ---------- | --- |
-|240|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/Minimum-Moves-to-Equal-Array-Elements/) | [Java](./java/453.MinimumMovestoEqualArrayElements.java) |Medium|[Doc](./doc/453.MinimumMovestoEqualArrayElements.md)
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/Minimum-Moves-to-Equal-Array-Elements/) | [Java](./java/453.MinimumMovestoEqualArrayElements.java) |Medium|[Doc](./doc/453.MinimumMovestoEqualArrayElements.md)
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)| [Java](./java/357.CountNumberswithUniqueDigits.java) |Medium|[Doc](./doc/357.CountNumberswithUniqueDigits.md)
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./java/338.CountingBits.java)|Medium|[Doc](./doc/338.CountingBits.md)
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/Search-a-2D-Matrix-ii/) | [Java](./java/240.Searcha2DMatrixII.java) |Medium|[Doc](./doc/240.Searcha2DMatrixII.md)
