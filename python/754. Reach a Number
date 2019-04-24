@@ -1,0 +1,9 @@
+class Solution:
+    def reachNumber(self, target: int) -> int:
+        target = abs(target)
+        cur=0
+        i = 1
+        while cur < target or abs(cur-target)%2==1:
+            cur+=i
+            i+=1
+        return i-1
