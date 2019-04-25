@@ -3,7 +3,7 @@
 
 ## 任务部署
 
-### LeetCode &hearts; 124/1024
+### LeetCode &hearts; 126/1024
 
 | # | Title | Solution | Difficulty | Doc |
 |---| ----- | -------- | ---------- | --- |
