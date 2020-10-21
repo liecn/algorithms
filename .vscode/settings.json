@@ -66,7 +66,8 @@
         "type_traits": "cpp",
         "typeinfo": "cpp",
         "unordered_map": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "climits": "cpp"
     },
     "python.pythonPath": "/Users/chenningli/anaconda3/bin/python"
 }
