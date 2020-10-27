@@ -1,6 +1,7 @@
-*.dSYM
+*.dSYM/
 *
 !/**/
 !*.*
 .vscode
 *.out
+.DS_Store
