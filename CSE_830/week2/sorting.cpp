@@ -162,17 +162,17 @@ int main(int argc, char const *argv[])
                  << ", " << run_time_worst;
         
         // Collect data on using DividedInsertionSort.
-        run_time = TimeSortFun(DividedInsertionSort, v);
-        run_time_best = TimeSortFun(DividedInsertionSort, v_best);
-        run_time_worst = TimeSortFun(DividedInsertionSort, v_worst);
-        std::cout << "DividedInsertionSort(N=" << N << ") "
-                  << "best_time=" << run_time_best << "s"
-                  << "rand_time=" << run_time << "s"
-                  << "worst_time=" << run_time_worst << "s"
-                  << std::endl;
-        out_file << ", " << run_time_best
-                 << ", " << run_time
-                 << ", " << run_time_worst;
+        // run_time = TimeSortFun(DividedInsertionSort, v);
+        // run_time_best = TimeSortFun(DividedInsertionSort, v_best);
+        // run_time_worst = TimeSortFun(DividedInsertionSort, v_worst);
+        // std::cout << "DividedInsertionSort(N=" << N << ") "
+        //           << "best_time=" << run_time_best << "s"
+        //           << "rand_time=" << run_time << "s"
+        //           << "worst_time=" << run_time_worst << "s"
+        //           << std::endl;
+        // out_file << ", " << run_time_best
+        //          << ", " << run_time
+        //          << ", " << run_time_worst;
 
         // Collect data on using MergeSort.
         run_time = TimeSortFun(MergeSort, v);
@@ -188,17 +188,17 @@ int main(int argc, char const *argv[])
                  << ", " << run_time_worst;
 
         // Collect data on using HybridSort.
-        run_time = TimeSortFun(HybridSort, v);
-        run_time_best = TimeSortFun(HybridSort, v_best);
-        run_time_worst = TimeSortFun(HybridSort, v_worst);
-        std::cout << "HybridSort(N=" << N << ") "
-                  << "best_time=" << run_time_best << "s"
-                  << "rand_time=" << run_time << "s"
-                  << "worst_time=" << run_time_worst << "s"
-                  << std::endl;
-        out_file << ", " << run_time_best
-                 << ", " << run_time
-                 << ", " << run_time_worst;
+        // run_time = TimeSortFun(HybridSort, v);
+        // run_time_best = TimeSortFun(HybridSort, v_best);
+        // run_time_worst = TimeSortFun(HybridSort, v_worst);
+        // std::cout << "HybridSort(N=" << N << ") "
+        //           << "best_time=" << run_time_best << "s"
+        //           << "rand_time=" << run_time << "s"
+        //           << "worst_time=" << run_time_worst << "s"
+        //           << std::endl;
+        // out_file << ", " << run_time_best
+        //          << ", " << run_time
+        //          << ", " << run_time_worst;
 
         out_file << std::endl;
 
