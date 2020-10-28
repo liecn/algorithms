@@ -17,7 +17,7 @@ void MultimapInsertion(std::vector<int> &v, int k, int sta = 0, int end = -1)
 
     for (int i = sta; i < end; i++)
     {
-        multimap.insert(std::pair<int, int>(v[i] % k, v[i]));
+        multimap.insert(std::pair<int, int>(i, v[i]));
     }
 }
 
@@ -29,7 +29,7 @@ void UnorderedMultimapInsertion(std::vector<int> &v, int k, int sta = 0, int end
 
     for (int i = sta; i < end; i++)
     {
-        my_unordered_multimap.insert(std::pair<int, int>(v[i] % k, v[i]));
+        my_unordered_multimap.insert(std::pair<int, int>(i, v[i]));
     }
 }
 
@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
 
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(0, 50000);
+    std::uniform_int_distribution<> dis(0, 500000);
 
     std::ofstream out_file("hw4_3.csv");
     out_file << "N"
@@ -74,7 +74,7 @@ int main(int argc, char const *argv[])
                   << std::endl;
         double run_time_multimap = 0;
         double run_time_unordered_multimap = 0;
-        for (int ii=0;ii<10;ii++){
+        for (int ii=0;ii<100;ii++){
             for (auto &val : v)
             {
                 val = dis(gen);

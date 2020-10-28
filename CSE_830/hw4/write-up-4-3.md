@@ -1,20 +1,19 @@
 ## Q3 Comparing dictionary structures
-1. __Hypothesis__: The part 1 indicates the value on n = 900 where the lines cross (or a range of values where they essentially overlap) for both insertion sort and merging sort. Naturally, we should set the dividing point as 900 in the Tim sort, which should be consistent with the crossover point for part 1.
+1. __Hypothesis__: In theory, the complexity analysis of the insertion operation for the hash table and binary tree are O(1) and O(log(n)), respectively. Thus the hash table should be much faster than the tree-based dictionary. The latter however produces no duplicate keys so there would be no collisions. The advantage of the tree-based dictionary is not speed but to reduce memory consumption, and to have better worst-case guarantees. I have no clue to estimate the dividing point for those two dictionaries for the running efficiency. And I guess the hash table should be faster than the tree-based container from the beginning. And it can be much faster with a larger size of numbers. Since the tree-based container spends extra time to maintain the order of the keys.
 
-2. __Methods__: In the interest of citation and academic honesty, the source code is based on the live coding examples provided by Prof. Ofria. The github link is as follows:
+2. __Methods__: The github link is as follows:
 
-- We generate the random series of numbers using the pseudo-random generator __std::mt19937__ with the real distribution __std::uniform_real_distribution__.
+https://github.com/liecn/algorithms/blob/master/CSE_830/hw4/hw4_3.cpp
 
-- We achieve the Time sort and output the running time for all into the __.csv__ file.
+- We generate the random series of numbers using the pseudo-random generator __std::mt19937__ with the real distribution __std::uniform_int_distribution__.
 
-- We test different dividing point k and sizes of numbers. For each dividing point, we only run once while we run 100 time with different sizes of numbers. 
+- We achieve the __std::multimap__ and __std::unordered_multimap__ and test the insertion operation.
+
+- We test different sizes of numbers and run 100 times for each size, delivering the accumulated time as the final outputs. 
 
 3. __Results__: 
-### Benchmark
-|   N=5:1500	|  N=5000:400000 	|
-|---	|---	|
-|  ![chirp](./hw4_1_1.png) 	| ![chirp](./hw4_2.png)  	|
+![chirp](./hw4_3.png) 
 
-4. __Discussion__: Consistent with the __Hypothesis__, the graph indicates the Time sort is faster than both insertion sort and merging sort for most cases. And the second graph shows that when k is around 1000, it has the best results and varies slightly for k = 300 and 2000. While the k is too larger or smaller, the efficiency decreases.
+4. __Discussion__: Consistent with the __Hypothesis__, the graph indicates the hash table (__std::unordered_multimap__) should be faster than the tree-based container (__std::multimap__) from the beginning.
 
-5. __Conclusions__: Under the conditions tested with the current implementation, the dividing point k is almost same as the crossover point for part 1.
+5. __Conclusions__: Under the conditions tested with the current implementation, both dictionaries spend the linear time for the insertion operation. While the tree-based container consumes extra time to maintain the order of the stored keys for insertion.

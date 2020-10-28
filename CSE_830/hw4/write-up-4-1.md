@@ -5,14 +5,16 @@
 
 2. __Methods__: In the interest of citation and academic honesty, the source code is based on the live coding examples provided by Prof. Ofria. The github link is as follows:
 
+https://github.com/liecn/algorithms/blob/master/CSE_830/hw4/hw4_1.cpp
+
 - We generate the random series of numbers using the pseudo-random generator __std::mt19937__ with the real distribution __std::uniform_real_distribution__.
 
 - We achieve the insertion sort, merging sort, and hybrid sort and output the running time for all into the __.csv__ file.
 
 - We test different sizes of numbers for all three sorting methods. For each size, we run 100 times and compute the accumulated time as the output.
 
-3. __Results__: 
-### Benchmark
+3. __Results__:
+
 |   N=5:1500	|  N=5:5000 	|
 |---	|---	|
 |  ![chirp](./hw4_1_1.png) 	| ![chirp](./hw4_1_2.png)  	|

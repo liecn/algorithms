@@ -23,5 +23,5 @@ plt.ylabel('Time')
 # beautify the x-labels
 plt.gcf().autofmt_xdate()
 
-plt.show()
-# plt.savefig('hw4_3.png')
+# plt.show()
+plt.savefig('hw4_3.png')
