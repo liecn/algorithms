@@ -1,0 +1,22 @@
+10 8
+Plastics Fermentation Ceramics InformationTheory CloudComputing EnvironmentalScience Biometrics PlasmaPhysics
+4
+Plastics Fermentation Ceramics InformationTheory
+4
+Plastics Fermentation CloudComputing EnvironmentalScience
+4
+Plastics Ceramics Biometrics PlasmaPhysics
+4
+Plastics Fermentation Ceramics CloudComputing
+4
+Plastics Fermentation Ceramics EnvironmentalScience
+4
+Fermentation Ceramics InformationTheory CloudComputing
+4
+Fermentation InformationTheory EnvironmentalScience PlasmaPhysics
+4
+Ceramics InformationTheory CloudComputing Biometrics
+4
+InformationTheory CloudComputing Biometrics PlasmaPhysics
+4
+InformationTheory CloudComputing EnvironmentalScience PlasmaPhysics
